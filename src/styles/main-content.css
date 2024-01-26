@@ -79,6 +79,7 @@
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
+    border: none;
 }
 
 .header__login .login {
@@ -88,6 +89,7 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+    border: none;
 }
 
 .header__search:hover {
@@ -97,10 +99,12 @@
 .header__login .subscribe:hover {
     transform: scale(1.04);
     color: var(--text-base-light);
+    cursor: pointer;
 }
 
 .header__login .login:hover {
     transform: scale(1.04);
+    cursor: pointer;
 }
 
 .playlist-container {
